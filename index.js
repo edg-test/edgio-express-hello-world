@@ -9,4 +9,4 @@ app.get('/', function (req, res) {
 //   console.log('Listening on port' + process.env.PORT)
 // })
 
-export default app
+module.exports = app
